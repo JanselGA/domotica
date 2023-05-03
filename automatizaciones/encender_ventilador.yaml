@@ -1,0 +1,16 @@
+
+alias: ecender ventilador
+description: ""
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.esp32_iot5_temperatura
+    above: 20
+condition: []
+action:
+  - service: switch.turn_on
+    data: {}
+    target:
+      device_id: 39d83645657ba9d0d7dd28a9d786c4b7
+      area_id: jorjan
+      entity_id: switch.esp32_iot5_rele_losjj
+mode: single
