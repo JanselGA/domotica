@@ -1,0 +1,18 @@
+
+alias: acender luz
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - automation.acender_luz
+    from: "off"
+    to: "on"
+condition: []
+action:
+  - service: light.turn_on
+    data: {}
+    target:
+      area_id: jorjan
+      device_id: 39d83645657ba9d0d7dd28a9d786c4b7
+      entity_id: light.esp32_iot5_led_losjj
+mode: single
