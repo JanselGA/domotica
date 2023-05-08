@@ -12,9 +12,13 @@ No proxecto final colocamos os sensores e actuadores na maqueta do instituto par
 ![EsquemaConexions_bb](https://user-images.githubusercontent.com/129266916/236782351-df5ae071-1443-4334-87a4-58cfdb98bcc8.svg)
 
 # fluxo de traballo
-Creado co obxetivo de domotizar unha casa
+
+Creado co obxetivo de domotizar unha casa,desde encenderse un ventilador cando baixe a temperatura, unha pantalla que de a información de humidade e temperatura, unha alarma que se activa al presionar un botón ou pola presenza entre outras cousas.
+
 ![conexions 2](https://user-images.githubusercontent.com/129266916/236782586-000f552e-9b27-4fe0-aa16-aec8ffdcc1a8.jpg)
 
 # mapa mental
+
 Mapa mental o cal recolle tada a información dos pasos realizados para a domotización en Home Assistan do ESP32 é ESP8266
+
 ![conexiones](https://user-images.githubusercontent.com/129266916/236782621-98bfcda9-e887-4019-a21c-5f80aa173e68.jpg)
